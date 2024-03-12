@@ -5,4 +5,4 @@ This repo stores the CaseOnly R code for simulating and analysing data to evalua
 # Citation
 Please cite the following paper if you use it. 
 
-* The case-only design is a powerful approach to detect interactions but should be used with caution. * (2024) Rui Dong, Gao T. Wang, Andrew T. DeWan, Suzanne M. Leal. (submitted)
+- The case-only design is a powerful approach to detect interactions but should be used with caution. (2024) Rui Dong, Gao T. Wang, Andrew T. DeWan, Suzanne M. Leal. (submitted)
