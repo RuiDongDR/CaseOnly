@@ -519,3 +519,13 @@ stat_power_res <- calculate_stat_power(simulated_data_formatted, significance_le
 draw_stat_power_figure(stat_power_res, output_path = output_path, output_name = "Fig_stat_power")
 
 
+############### Calculating bias ###############
+OR_G <- 1.2
+OR_E <- 2
+OR_GE <- 1.2
+MAF=0.2
+freq.E=0.1
+print(paste0("beta1 = ", format(log(OR_G), digits=3, nsmall=3)))
+print(paste0("beta2 = ", format(log(OR_E), digits=3, nsmall=3)))
+print(paste0("beta3 = ", format(log(OR_GE), digits=3, nsmall=3)))
+calculate_analytical_bias(OR_G, OR_E, OR_GE, MAF, freq.E, output_path = output_path, prefix = "Table_analytical_bias")
